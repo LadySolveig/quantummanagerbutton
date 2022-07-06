@@ -43,10 +43,10 @@ HTMLHelper::_('script', 'com_quantummanager/sortable.min.js', [
 	'relative' => true
 ]);
 
-HTMLHelper::_('script', 'plg_button_quantummanagerbutton/modal.js', [
+HTMLHelper::_('script', 'plg_button_quantummanagerbutton/modalembed.js', [
 	'version' => filemtime(__FILE__),
 	'relative' => true
-]);
+]); // FIXME modal.js not loaded, Embed Button not showing
 
 ?>
 
